@@ -1,0 +1,605 @@
+body{
+	background-image:url(_MG_9381.jpg);
+	background-size:cover;
+}
+.bg-lightest {
+    background-color: #FFFFFF !important;
+}
+
+.top5{
+	background: linear-gradient(blue,red);
+	height:120px;
+	color:yellow
+}
+.top5:hover{
+ background: linear-gradient(red, blue);
+}
+.footer{
+	background: linear-gradient(gray,yellow,blue);
+	height:300px;
+	margin:0 auto;
+}
+.footer:hover{
+ background: linear-gradient(green,yellow,red);
+}
+/*logo css start*/
+
+.logo-radius {
+    border-radius: 7px;
+}
+
+.text-wash-white {
+    color: #c3bebe;
+}
+
+.menuzord .menuzord-menu>li>a {
+    border-right: 1px solid #0C8EDA;
+}
+
+.menuzord .menuzord-menu>.transp>a {
+    border-right: 1px solid transparent !important;
+}
+
+.menuzord .menuzord-menu>li.active>a,
+.menuzord .menuzord-menu>li:hover>a,
+.menuzord .menuzord-menu ul.dropdown li>a {
+    background: #0d8eda none repeat scroll 0 0 !important;
+    color: white !important;
+}
+
+.menuzord .menuzord-menu>li.active>a,
+.menuzord .menuzord-menu>li:hover>a,
+.menuzord .menuzord-menu ul.dropdown li:hover>a {
+    background: #016eaf none repeat scroll 0 0 !important;
+    color: white !important;
+}
+
+.sum-menu-2 li a {
+    color: black;
+}
+
+.sum-menu-2 li:hover a {
+    text-decoration: underline;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.styled-icons.icon-sm a {
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px 0px 2px 0;
+    width: 30px;
+}
+
+.width-10-p {
+    width: 15%;
+}
+
+@media (max-width: 768px) {
+    .width-10-p {
+        width: 100%;
+    }
+}
+
+.margin-top-m-5 {
+    margin-top: -5px;
+}
+
+.color-blue {
+    color: #0d8eda;
+}
+
+.text-primay {
+    color: #002147;
+}
+
+.bg-light-gray {
+    background: #f3f1ec;
+}
+
+.nav-pills li a:hover,
+.nav-pills li.active>a,
+.nav-pills li.active>a:hover,
+.nav-pills li.active>a:focus {
+    background: transparent;
+    color: white;
+    padding: 5px;
+    border: none !important;
+    font-size: 25px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    padding: 5px;
+    color: #002147;
+    border: none !important;
+    font-size: 25px;
+}
+
+.visit-us {
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    border-bottom: 2px solid #002147;
+}
+
+
+/*logo css start*/
+
+
+/* vc-profile css start*/
+
+.vc-inner-section {
+    height: 401px;
+}
+
+.vc-message-btn {
+    margin-top: 20px;
+    background-color: #202c45;
+    border: 1px solid #202c45;
+    border-radius: 0px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+
+/*vc profile css end*/
+
+
+/*faculty, institute and motice section start*/
+
+.faculty-notice-container {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.faculty-section {
+    height: 375px;
+}
+
+.notice-section {
+    height: 375px;
+}
+
+.hr {
+    border: 1px solid linear-gradient(180deg, rgba(38, 65, 219, 1) 0%, rgba(38, 187, 219, 1) 100%) !important;
+}
+
+.individual-notice-sec {
+    background: #FFFFFF;
+    height: 160px;
+    border: 3px solid #efefef;
+}
+
+
+/*faculty, institute and motice section end*/
+
+
+/*news section css start*/
+
+.post .entry-content {
+    position: relative;
+    background: none;
+    padding: 15px;
+}
+
+.event-title {
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    width: 100%;
+    color: black;
+    background: #ffffffbf;
+}
+
+.event-fa-lg {
+    margin-top: 8px;
+    font-size: 2.333333em;
+    line-height: 0.75em;
+    color: #a0a0a0d1;
+    vertical-align: -15%;
+}
+
+.home-news-box {
+    border-radius: 0px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.news-box-height {
+    min-height: 357px;
+}
+
+.home-event-box {
+    border-radius: 0px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.event-box-height {
+    min-height: 330px;
+}
+
+.event-btn-bg {
+    background-color: #145e5d;
+}
+
+
+/*MoU partner CSS start*/
+
+.img-box-shadow {
+    border-radius: 0px;
+    background-color: white;
+    box-shadow: 0 2px 6px #202c45, 0 2px 4px #202c45;
+}
+
+
+/*MoU partner CSS start*/
+
+
+/*  bhoechie tab */
+
+div.bhoechie-tab-container {
+    z-index: 10;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+div.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div.bhoechie-tab-menu div.list-group {
+    margin-bottom: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a {
+    margin-bottom: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+    color: #5a55a3;
+}
+
+div.bhoechie-tab-menu div.list-group>a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa {
+    background-color: #de840a;
+    background-image: #5a55a3;
+    color: #ffffff;
+}
+
+div.bhoechie-tab-menu div.list-group>a.active:after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-right: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-right: 10px solid #0a2ade;
+}
+
+div.bhoechie-tab-content {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.tab-content {
+    border: none !important;
+}
+
+.tab-content-bg {
+    background: #FFFFFF !important;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+    display: none;
+}
+
+.bd-dept-blue {
+    background: #03305d;
+}
+
+.widget.dark .list-border li {
+    border-bottom: 1px dashed #404040;
+    color: #afadad;
+    padding-left: 0 !important;
+}
+
+.footer a {
+    color: #00a1ff;
+}
+
+.entry-header {
+    text-align: center;
+    color: #fff !important;
+}
+
+.entry-header h2 {
+    font-size: 16px;
+    color: #fff !important;
+}
+
+.entry-header p {
+    font-size: 12px;
+}
+
+.bg-light-pst {
+    background-color: #198bf5 !important;
+}
+
+.bg-pst {
+    background-color: #73bdd3 !important;
+}
+
+.bg-light-green {
+    background-color: #002c46!important;
+}
+
+.bg-green {
+    background-color: #202c45 !important;
+}
+
+.bg-light-red {
+    background-color: #BE3B39 !important;
+}
+
+.bg-red {
+    background-color: #8E2C2B !important;
+}
+
+.bg-light_gray {
+    background-color: #C6C6C6 !important;
+}
+
+.bg-light_gray:hover {
+    background-color: #E6E7E7 !important;
+}
+
+.bg-blue {
+    background-color: #418BB6 !important;
+}
+
+.bg-light-blue {
+    background-color: #65A2C4 !important;
+}
+
+.border-top-green {
+    border-top: 4px solid #001244 !important;
+}
+
+.border-top-red {
+    border-top: 4px solid #3998be !important;
+}
+
+.ul li {
+    list-style-type: square;
+    color: #051cef;
+}
+
+.bg-light-gray-2 {
+    background: #80808021 !important;
+}
+
+.title-bordered li {
+    display: inline-block;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 15px !important;
+    border-right: 3px solid #fff !important;
+}
+
+.title-bordered li:last-child {
+    border: none !important;
+}
+
+@media only screen and (min-width: 920px) {
+    .cus-mar-1 {
+        width: 48.6% !important;
+        margin-right: 1% !important;
+    }
+    .cus-mar-2 {
+        width: 48.6% !important;
+        margin-right: 1% !important;
+    }
+    .cus-notice-mar-2 {
+        width: 48.6% !important;
+        margin-left: 0.7% !important;
+        margin-right: 0.7% !important;
+    }
+    .cus-pad-r {
+        padding-right: 0 !important;
+    }
+    .title-bordered-news h2 span:first-child,
+    .title-bordered h2 span:first-child {
+        display: inline-block;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-right: 15px !important;
+        border-right: 3px solid #fff !important;
+    }
+    .title-bordered-news h2 span:first-child {
+        border-right: 3px solid #00443C !important;
+    }
+    .cust-md-3 {
+        width: 23%;
+        margin-left: 2%;
+        padding: 0;
+    }
+    .part-row-m-padd {
+        padding-bottom: 28px !important;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .cus-mar-2 {
+        margin: 15px;
+    }
+    .cus-mob-1 {
+        width: 92% !important;
+        margin: 0 15px !important;
+    }
+    .cust-m-ml {
+        margin-left: 15px !important;
+        overflow: hidden;
+    }
+    .cust-m-pb {
+        margin-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .fac-news {
+        padding-top: 15px !important;
+        padding-bottom: 0px !important;
+    }
+    .cus-m-mar-1,
+    .cus-m-mar-2 {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 30px !important;
+    }
+    .cus-m-mar-2 {
+        padding: 5px !important;
+    }
+    .event-m-m {
+        padding-right: 15px !important;
+    }
+    .event-m-mar {
+        margin-bottom: 0 !important;
+    }
+    .part-m-mar {
+        margin-bottom: 15px;
+    }
+    .part-m-mar:last-child {
+        margin-bottom: 0 !important;
+    }
+    .part-row-m-padd {
+        padding-bottom: 15px !important;
+    }
+    .menuzord-brand img {
+        width: 100px;
+        max-height: 100% !important;
+    }
+}
+
+
+/*album image css*/
+
+.album-img {
+    height: 250px;
+}
+
+.album-gallery-img {
+    height: 190px;
+}
+
+
+/*album image css end*/
+
+.faculty-title {
+    text-align: center;
+    color: black;
+    background: #ffffffbf;
+}
+
+.faculty-member-image-box {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    height: 285px;
+}
+
+.faculty-member-image-box img {
+    max-height: 174px;
+    width:100%;
+}
+
+
+/*individual faculty member page css start*/
+
+.indiv-fac-mem-bg {
+    background-color: #FFFFFF;
+    min-height: 300px;
+}
+
+.indiv-faculty-member-image-box {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+    padding: 10px;
+}
+
+.indiv-faculty-member-image-box img {
+    max-height: 174px;
+}
+
+.fm-info-logo tr td i {
+    color: #ef7105;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.list-group-item:last-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.indiv-fac-tab ul li a:active {
+    color: white;
+}
+
+.list-group-item a:active {
+    color: white;
+}
+
+.fm-about-us {
+    margin-top: 20px;
+    border-top: 1px solid #c3bdbd;
+}
+
+
+/*offices pages css start*/
+
+.offices-cont-bg {
+    background: #FFFFFF;
+    min-height: 285px;
+}
+
+
+/*offices pages css end*/
+
+
+/*vice chancellor page css start*/
+
+.vc-sir-content-tab {
+    min-height: 262px !important;
+    padding: 20px;
+}
+
+.vc_active{
+    background:#43DCD8;
+    color:#fff;
+    border:1px solid #2857F7;
+}
